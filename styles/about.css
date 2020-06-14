@@ -1,0 +1,20 @@
+/* 
+    Document   : main.css
+    Created on : Oct 2, 2017, 10:13:09 PM
+    Author     : Jarrod Norris
+    Class      : ITIS 4166-UOL
+*/
+img {
+    margin: 2% 2% 2% 2%;
+    width: 200px;
+    display: inline;
+    float: left;
+}
+#major {
+    margin: 2% 10% 2% 0%;
+
+}
+p {
+    font-size: 150%;
+}
+

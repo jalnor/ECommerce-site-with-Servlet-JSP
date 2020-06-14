@@ -1,0 +1,154 @@
+/*
+    This is CSS for JMan's Computer Sales cart page.
+    Author: Jarrod Norris
+    Class: ITIS 4166-UOL
+    Date: 30 Aug. 2017
+*/
+/* This formats the main content area for cart page 
+   differently than the other pages. */
+.maincontentCart{
+    margin: 0px;
+    padding: 0px;
+    width: 80%;
+    height: 800px;
+    font-size: 150%;    
+    float: left;
+    /*border: 2px dotted black;*/
+}
+#creditCardType {
+    width: 170px;
+    font-size: 110%;
+}
+
+/* This formats the heading in the main content 
+   area of the cart page. */
+#cartHeading{
+    width: 80%;
+    height: 80px;
+    /*border: 2px dotted black;*/
+}
+/* This formats the text in the main content 
+   area of the cart page. */
+.maincontentCart h2{
+    margin: 0% 0% 0% 10%;
+    padding: 1%;
+    width: 50%;
+    display: inline;
+    float: left;
+    /*border: 2px dotted black;*/
+}
+/* This formats the paragraph in the main content 
+   area of the cart page. */
+.maincontentCart p{
+    margin: 2% 0% 0% 0%;  
+    float: left;
+    /*border: 2px dotted black;*/
+}
+/* This formats the table. */
+table{
+    margin: 0% 0% 0% 3%;
+    padding: 2%;
+    width: 100%;
+    border-collapse: collapse;
+    /*border: 2px solid black;*/
+    /*float: right;
+    clear: left;*/
+}
+/* This adds pading around cells of table. */
+tbody td{
+    padding: 15px;
+}
+/* This formats the head of the table adding a top border and some padding. */
+thead th{
+    /*background-color: lightgreen;*/
+    margin: 0;
+    padding: 15px;
+    border-bottom: 4px solid lightblue;
+}
+/* This formats the foot of the table adding a top border and some padding. */
+tfoot th{
+    margin: 0;
+    padding: 15px;
+    border-top: 4px solid lightblue;
+}
+/* This moves the dollar values to the right of the 
+   field inside table. */
+td:nth-child(2){
+    text-align: left;
+}
+/* This centers the quantity field inside the table. */
+td:nth-child(3){
+    text-align: center;
+}
+/* This centers the quantity field inside the table. */
+td:nth-child(4){
+    text-align: center;
+}
+/* This aligns the contents of the fourth column in the foot to the right. */
+td:nth-child(5){
+    /*width: 50%;*/
+    text-align: right;
+}
+/* This aligns the contents of the fourth column in the foot to the right. */
+tfoot th:nth-child(5){
+    text-align: right;
+}
+/* This formats the selection boxes under the quantity column. */
+select{
+    position: relative;
+    margin: 0;
+    padding: 2px;
+    width: 50px;
+    height: 40px;
+    font-size: 80%;
+    border: 2px solid lightblue;
+    box-shadow: inset 3px 3px 2px grey;
+}
+/* This sets the width of the buttons in the main content 
+   area of the cart page. */
+#cartButtons{
+    width: 100%;
+}
+/* This formats the upate button specifically. */
+#updateButton{
+    margin: 0%;
+}
+/* This formats the checkout button specifically. */
+#checkoutButton{
+    margin: 0;
+}
+/* This formats the buttons in the main content area of the cart page. */
+.cartButtons{
+    margin: 2% 0% 2% 70%;
+    width: 30%;
+    font-size: 150%;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px grey;
+    background-image: -o-linear-gradient(45deg, lightblue 0%, lightblue 20%, lightblue 50%, lightblue 100%);
+    background-image: -webkit-linear-gradient(45deg, lightblue 0%, lightblue 20%, lightblue 50%, lightblue 100%);
+    background-image: -moz-linear-gradient(45deg, lightblue 0%, lightblue 20%, lightblue 50%, lightblue 100%);
+}
+
+#cardNumber {
+    width: 170px;
+    height: 40px;
+    font-size: 110%;
+    border: 2px solid lightblue;
+    box-shadow: inset 3px 3px 2px grey;
+}
+
+#cvv {
+    width: 50px;
+    height: 40px;
+    font-size: 110%;
+    border: 2px solid lightblue;
+    box-shadow: inset 3px 3px 2px grey;
+}
+
+#month {
+    width: 75px;
+}
+
+#year {
+    width: 75px;
+}

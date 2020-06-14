@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf3da97c-f06b-4410-ab58-a1a17638f580" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1Ywye5HNames1JPhF6HZLhPrO0K" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf3da97c-f06b-4410-ab58-a1a17638f580" name="Default Changelist" comment="" />
+      <created>1583868043862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583868043862</updated>
+      <workItem from="1583868046321" duration="522000" />
+      <workItem from="1584043091417" duration="524000" />
+      <workItem from="1584327812446" duration="2756000" />
+      <workItem from="1584405086502" duration="196000" />
+      <workItem from="1589668611724" duration="20000" />
+      <workItem from="1590679546228" duration="411000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="622" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1589668617280">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="622" y="240" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1584327825976" />
+    <state x="622" y="241" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1584405149282" />
+    <state x="622" y="242" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1583868048282" />
+    <state x="622" y="256" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1589668617280" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/WEB-INF/classes/controllers/CatalogController.java</url>
+          <line>289</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

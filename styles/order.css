@@ -1,0 +1,64 @@
+/* 
+    Document   : order.css
+    Created on : Oct 2, 2017, 10:13:09 PM
+    Author     : Jarrod Norris
+    Class      : ITIS 4166-UOL
+*/
+.invoice {
+    text-align: center;
+    /*border: 2px solid black;*/
+}
+h1 {
+    text-align: center;
+}
+
+
+h3 {
+    margin: 0px 20px 0px 10px;
+    padding: 2%;
+    display: inline;
+    float: left;
+    /*border: 2px solid black;*/
+}
+
+#billingAddr {
+    width: 80%;
+}
+
+label {
+    width: 40%;
+    display: inline;
+    text-align: right;
+    clear: both;
+    float: left;
+/*    border: 2px dotted black;*/
+}
+
+input {
+   float: right;
+   border: none;
+   font-size: 100%;
+/*   clear: both;*/
+}
+
+tfoot th {
+    border-top: 4px solid lightblue;
+}
+
+tfoot tr {
+    text-align: right;
+}
+
+.itemImage {
+   width: 150px;
+   height: 150px;   
+}
+
+.autoResize {
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+    width: 100%;
+    overflow-y: auto;
+    /*border: 2px dotted black;*/    
+}

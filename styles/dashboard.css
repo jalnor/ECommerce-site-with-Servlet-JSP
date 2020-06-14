@@ -1,0 +1,96 @@
+/* 
+    Document   : main.css
+    Created on : Oct 2, 2017, 10:13:09 PM
+    Author     : Jarrod Norris
+    Class      : ITIS 4166-UOL
+*/
+#mainbox {
+    width: 100%;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+#prod {
+    margin: 0;
+    padding: 4%;
+    width: 80%;
+    background-color: lightblue;
+/*    border: 2px dotted black;    */
+}
+
+#user { 
+    margin: 0;
+    padding: 4%;
+    width: 80%;
+    background-color: lightblue;
+/*    border: 2px dotted black;    */ 
+}
+
+#leftbox {
+    width: 50%;
+    float: left;
+    clear: both;
+}
+
+#rightbox {
+    width: 50%;
+    float: right;
+}
+
+body {
+    height: 800px;
+    background-color: lightgray;
+}
+
+label {
+    margin: 1% 0%;
+    display: inline;
+    clear: both;
+    /*padding: 0 1em 1em 0;*/
+/*    border: 2px dotted black;*/
+    width: 40%;
+    float: left;    
+    text-align: right;
+}
+
+input {
+    margin: 1% 0%;
+    float: right;
+    box-sizing: border-box;
+/*    border: 2px dotted black;*/
+}
+
+legend {
+    margin: 2%;
+    padding: 2%;
+    font-size: 150%;
+/*    border: 2px dotted black;*/
+}
+
+footer {
+    text-align: center;
+    clear: both;
+}
+
+#sign-in-btn {
+    margin: 1% 0 0 0;
+}
+
+#bottomAdmin {
+    clear: both;
+}
+
+#signOut {
+    float: left;
+}
+
+p {
+    width: 150px;
+    font-size: 125%;
+    display: inline;
+    float: left;
+}

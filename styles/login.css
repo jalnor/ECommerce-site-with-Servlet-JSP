@@ -1,0 +1,126 @@
+/* 
+    Document   : main.css
+    Created on : Oct 2, 2017, 10:13:09 PM
+    Author     : Jarrod Norris
+    Class      : ITIS 4166-UOL
+*/
+#login {
+    margin: 0 auto;
+    padding: 4%;
+    width: 40%;
+    background-color: lightblue;
+   /* border: 2px solid black;*/
+    
+}
+
+#prod {
+    margin: 0 auto;
+    padding: 4%;
+    width: 40%;
+    background-color: lightblue;
+/*    border: 2px dotted black;    */
+}
+
+body {
+    height: 800px;
+    background-color: lightgray;
+}
+
+label {
+    margin: 1% 0%;
+    display: inline;
+    clear: both;
+    /*padding: 0 1em 1em 0;*/
+/*    border: 2px dotted black;*/
+    width: 40%;
+    float: left;    
+    text-align: right;
+}
+
+input {
+    margin: 1% 0%;
+    float: right;
+/*    display: inline;*/
+    box-sizing: border-box;
+/*    border: 2px dotted black;*/
+}
+
+select {
+    margin: 1% 0%;
+    width: auto;
+    float: right;
+/*    display: inline;*/
+    box-sizing: border-box;
+/*    border: 2px dotted black;*/
+}
+
+legend {
+    margin: 2%;
+    padding: 2%;
+    font-size: 150%;
+/*    border: 2px dotted black;*/
+}
+
+footer {
+    margin: 20% 0;
+    text-align: center;
+    clear: both;    
+}
+
+#sign-in-btn {
+    margin: 1% 0 0 0;
+}
+
+#goback {
+    margin: 0 30%;
+}
+
+.allViews {
+    margin: 2% auto;
+    width: 100%;
+    background-color: lightblue;
+}
+
+/*.allViews tbody tr {
+    height: 10px;
+    border: 2px solid black;
+}*/
+table {
+    border-collapse: collapse;
+    margin: 0 0 0 30%;
+}
+tr {
+    outline: 2px solid black;
+    height: 30px;
+}
+
+td {
+    border-left: 2px solid black;
+    text-align: center;
+}
+
+td:nth-child(1) {
+    width: 100px;
+}
+
+td:nth-child(2) {
+    width: 200px;
+}
+
+td:nth-child(3) {
+    width: 200px;
+}
+
+td:nth-child(6) {
+    width: 200px;
+}
+
+h2 {
+    font-size: 125%;
+    text-align: center;
+}
+
+img {
+    with: 150px;
+    height: 150px;
+}

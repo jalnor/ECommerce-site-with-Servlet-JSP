@@ -1,0 +1,61 @@
+/* 
+    Document   : main.css
+    Created on : Oct 2, 2017, 10:13:09 PM
+    Author     : Jarrod Norris
+    Class      : ITIS 4166-UOL
+*/
+/* This formats the paragraph in the item description area of the item page. */
+p{
+    margin: 0%;
+    padding: 0% 2% 2% 2%;
+    width: 80%;
+    font-size: 130%;
+    clear: both;
+    /*border: 2px dotted black;*//* For test purposes only. */
+}
+/* This formats the add to cart button on the item page. */
+#add{
+    margin: 2%;
+    padding: 2px 3px;
+    width: 20%;
+    font-size: 150%;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px grey;
+    background-image:  linear-gradient(30deg, lightblue 0%, lightblue 20%, lightblue 50%, lightblue 100%);
+    background-image:  -webkit-linear-gradient(30deg, lightblue 0%, lightblue 20%, lightblue 50%, lightblue 100%);
+    background-image:  -moz-linear-gradient(30deg, lightblue 0%, lightblue 20%, lightblue 50%, lightblue 100%);
+    clear: both;
+}
+/* This formats the the picture of the laptop. */
+#productImage{
+    margin: 0% 0% 0% 0%;
+    padding: 5% 5% 5% 10%;
+    width: 100%;
+    height: auto;
+    display: inline;    
+}
+/* This formats the div. containing the picture. */
+#productPic{
+    margin: 0;
+    padding: 2% 10% 2% 2%;
+    width: 15%;
+    height: 200px;
+    float: left;
+    /*border: 2px dotted black;*/
+    align-content: center;
+}
+/* This formats the paragraph next to the picture. */
+#productDetails{
+    margin: 2%;
+    padding: 2% 2% 2% 0%;
+    width: 50%;
+    height: 200px;
+    float: left;
+    font-size: 130%;
+    /*border: 2px dotted black;*/
+}
+/* This formats the div holding the paragraph under add to cart button. */
+#itemDescription{
+    margin: 0;
+    padding: 2%;
+}

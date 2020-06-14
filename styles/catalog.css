@@ -1,0 +1,21 @@
+/* 
+    Document   : main.css
+    Created on : Oct 2, 2017, 10:13:09 PM
+    Author     : Jarrod Norris
+    Class      : ITIS 4166-UOL
+*/
+/* This formats the unordered list in left main area. */
+.leftContent ul{
+    padding: 0 0 0 6%;
+    list-style-type: none;
+}
+/* This formats the a tags in left content area. */
+.leftContent ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* This formats the headings on catalog items. */ 
+.catalogHead{
+    font-size: 150%;
+    padding: 0 0 0 2%;
+}

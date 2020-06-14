@@ -1,0 +1,911 @@
+/* 
+    Document   : main.css
+    Created on : Oct 2, 2017, 10:13:09 PM
+    Author     : Jarrod Norris
+    Class      : ITIS 4166-UOL
+*/
+/* Body properties. */
+@media only screen and (min-width: 1824px) {
+    body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    /* This formats the page header. */
+    header{
+        margin: 0%;
+        padding: 1% 0% 1% 0%;
+        width: 100%;
+        height: 80px;    
+        background-color: lightgray;
+    }
+    /* This formats the logo div. in page headder. */
+    #Logo{
+        margin: 0%;
+        padding: 1%;
+        width: 40%;
+        font-family: Helvetica, Times, serif;   
+        float: left;
+    }
+    /* This formats the link from logo to home page in page header. */
+    #Logo a{
+        text-decoration: none;
+        color: Black;
+    }
+    /* This formats the logo/brand in page header. */
+    #Logo1{
+        font-size: 28pt;
+        display: inline; 
+    }
+    /* This formats the login status in the page header. */
+    #status{
+        margin: 0%;
+        padding: 0% 1% 0% 0%;
+        width: 20%;
+        height: 20%;
+        font-size: 120%;
+        float: right;
+        text-align: right;
+        /*border: 2px dotted black;*/
+    }
+    /* This formats the breadcrumb in the page header. */
+    #location{
+        margin: 2% 0% 0% 0%;
+        padding: 0% 1% 1% 0%;
+        width: 20%;
+        height: 8%;
+        font-size: 120%;
+        float: right;
+        clear: right;
+        /*border: 2px dotted black;*/
+        text-align: right;
+    }
+    /* This formats the user navigation area. */
+    #usernav{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 60px;    
+        background-color: lightblue;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    /* This shifts the list to right in user navigation area. */
+    #usernav ul:nth-child(1){
+        margin: 0% 0% 0% 70%;
+
+    }
+    /* This formats the unordered list in the user navigation area. */
+    .usernav1{
+        margin: 0%;
+        padding: 1% 2%;
+        font-size: 120%;
+        float: right;
+    }
+    /* This formats the link text in user navigation area. */
+    .usernav{
+        margin: 0px;
+        padding: 5px;
+        width: 20%;
+        height: 40%;
+        display: inline;
+        font-size: 120%;
+        color: black;
+        /*border: 2px dotted black;*/
+    }
+
+    .usernav:nth-child(1){
+
+         border-right: 2px solid black;
+    }
+
+    .usernav:nth-child(2){
+         border-right: 2px solid black;
+    }
+    /* This formats the links in the user navigation area. */
+    .usernav a{
+        text-decoration: none;
+        color: black;
+    }
+    /* This formats the aside. */
+    aside{
+        margin: 0px;
+        padding: 0px;
+        width: 19%;
+        height: 1200px;
+        border-right: 2px solid black;
+        float: left;    
+    }
+    /* This formats the heading in the aside. */
+    aside h2{
+        text-align: center;
+    }
+    /* This formats the unordered list removing any bullet points. */
+    #aside_nav ul{
+        list-style-type: none;
+        padding: 20px 20px;    
+    }
+    /* This formats the buttons in the aside. */
+    #aside_nav ul li{
+        margin: 0px 0px 20px 0px;
+        width: 85%;
+        border: 2px solid lightblue;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px grey;
+        display: block;
+        text-align: center;
+        font-size: 120%;
+
+    }
+
+    #aside_nav ul li:hover {
+        background-color: lightblue;
+    }
+    /* This sets the focus to the current page by changing the background color. */
+    #aside_nav ul li a:visited {
+        color: crimson;
+
+    }
+    #aside_nav ul li.active {
+        background-color: lightblue;  
+    }
+
+    /* This formats the links in the list items in the aside. */
+    #aside_nav ul li a{
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+        color: black;
+    }
+    /* This formats the main content area. */
+    .maincontent{
+        margin: 0px;
+        padding: 0px;
+        width: 80%;
+        height: 1200px;
+        font-size: 150%;    
+        float: left;
+        /*border: 2px dotted black;*/
+    }
+    /* This formats the heading in the main content area. */
+    .maincontent h2{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 250%;
+    }
+    /* This formats the links from pictures to catalog page. */
+    .options{
+        width: 40%;
+        height: 100px;
+        /*border: 2px dotted black;*/
+    }
+    /* This formats the pictures on home page. */
+    .laptop{
+        margin: 0% 0% 0% 15%;
+        padding: 0%;
+        width: 106px;
+        height: auto;
+        position: absolute;
+        /*border: 2px dotted black;*/
+        float: right;
+    }
+    /* This formats the left content area */
+    .leftContent{
+        margin: 0;
+        padding: 4%;
+        width: 75%;
+        float: left;
+        height: auto;
+        /*border: 2px dotted black;*/
+    }
+
+    /* Footer formatting */
+    footer{
+        width: 100%;
+        height: 100px;
+        background-color: lightgray;
+        clear: both;
+    }
+    
+    footer table thead th {
+        font-size: 18pt;
+        text-decoration: underline;
+    }
+    footer table tr {
+        text-align: center;
+/*        border: 2px solid black;*/
+    }
+    
+    footer table {
+        margin: 0 auto;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: black;
+    }
+}
+@media only screen and (min-width: 1223px) 
+and (max-width: 1823px){
+    body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    /* This formats the page header. */
+    header{
+        margin: 0%;
+        padding: 1% 0% 1% 0%;
+        width: 100%;
+        height: 80px;    
+        background-color: lightgray;
+    }
+    /* This formats the logo div. in page headder. */
+    #Logo{
+        margin: 0%;
+        padding: 1%;
+        width: 60%;
+        font-family: Helvetica, Times, serif;   
+        float: left;
+    }
+    /* This formats the link from logo to home page in page header. */
+    #Logo a{
+        text-decoration: none;
+        color: Black;
+    }
+    /* This formats the logo/brand in page header. */
+    #Logo1{
+        font-size: 23pt;
+        display: inline; 
+    }
+    /* This formats the login status in the page header. */
+    #status{
+        margin: 0%;
+        padding: 0% 1% 0% 0%;
+        width: 20%;
+        height: 20%;
+        font-size: 120%;
+        float: right;
+        text-align: right;
+        /*border: 2px dotted black;*/
+    }
+    /* This formats the breadcrumb in the page header. */
+    #location{
+        margin: 2% 0% 0% 0%;
+        padding: 0% 1% 1% 0%;
+        width: 20%;
+        height: 8%;
+        font-size: 120%;
+        float: right;
+        clear: right;
+        /*border: 2px dotted black;*/
+        text-align: right;
+    }
+    /* This formats the user navigation area. */
+    #usernav{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 60px;    
+        background-color: lightblue;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    /* This shifts the list to right in user navigation area. */
+    #usernav ul:nth-child(1){
+        margin: 0% 0% 0% 70%;
+
+    }
+    /* This formats the unordered list in the user navigation area. */
+    .usernav1{
+        margin: 0%;
+        padding: 1% 2%;
+        font-size: 120%;
+        float: right;
+    }
+    /* This formats the link text in user navigation area. */
+    .usernav{
+        margin: 0px;
+        padding: 5px;
+        width: 20%;
+        height: 40%;
+        display: inline;
+        font-size: 120%;
+        color: black;
+        /*border: 2px dotted black;*/
+    }
+
+    .usernav:nth-child(1){
+
+         border-right: 2px solid black;
+    }
+
+    .usernav:nth-child(2){
+         border-right: 2px solid black;
+    }
+    /* This formats the links in the user navigation area. */
+    .usernav a{
+        text-decoration: none;
+        color: black;
+    }
+    /* This formats the aside. */
+    aside{
+        margin: 0px;
+        padding: 0px;
+        width: 19%;
+        height: 1200px;
+        border-right: 2px solid black;
+        float: left;    
+    }
+    /* This formats the heading in the aside. */
+    aside h2{
+        text-align: center;
+    }
+    /* This formats the unordered list removing any bullet points. */
+    #aside_nav ul{
+        list-style-type: none;
+        padding: 20px 20px;    
+    }
+    /* This formats the buttons in the aside. */
+    #aside_nav ul li{
+        margin: 0px 0px 20px 0px;
+        width: 85%;
+        border: 2px solid lightblue;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px grey;
+        display: block;
+        text-align: center;
+        font-size: 120%;
+
+    }
+
+    #aside_nav ul li:hover {
+        background-color: lightblue;
+    }
+    /* This sets the focus to the current page by changing the background color. */
+    #aside_nav ul li a:visited {
+        color: crimson;
+
+    }
+    #aside_nav ul li.active {
+        background-color: lightblue;  
+    }
+
+    /* This formats the links in the list items in the aside. */
+    #aside_nav ul li a{
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+        color: black;
+    }
+    /* This formats the main content area. */
+    .maincontent{
+        margin: 0px;
+        padding: 0px;
+        width: 80%;
+        height: 1200px;
+        font-size: 18pt;    
+        float: left;
+        /*border: 2px dotted black;*/
+    }
+    /* This formats the heading in the main content area. */
+    .maincontent h2{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 23pt;
+    }
+    /* This formats the links from pictures to catalog page. */
+    .options{
+        width: 40%;
+        height: 100px;
+        /*border: 2px dotted black;*/
+    }
+    /* This formats the pictures on home page. */
+    .laptop{
+        margin: 0% 0% 0% 15%;
+        padding: 0%;
+        width: 95px;
+        height: auto;
+        position: absolute;
+        /*border: 2px dotted black;*/
+        float: right;
+    }
+    /* This formats the left content area */
+    .leftContent{
+        margin: 0;
+        padding: 4%;
+        width: 75%;
+        float: left;
+        height: auto;
+        /*border: 2px dotted black;*/
+    }
+
+    /* Footer formatting */
+    footer{
+        width: 100%;
+        height: 100px;
+        background-color: lightgray;
+        clear: both;
+    }
+    footer table thead th {
+        font-size: 18pt;
+    }
+    footer table tr {
+        text-align: center;
+/*        border: 2px solid black;*/
+    }
+    
+    footer table {
+        margin: 0 auto;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: black;
+    }
+}
+@media only screen and (min-width: 768px) 
+and (max-width: 1223px){
+   body{
+      margin: 0%;
+      padding: 0%;
+      width: 100%;
+      height: 100%;
+  }
+  /* This formats the page header. */
+  header{
+      margin: 0%;
+      padding: 1% 0% 1% 0%;
+      width: 100%;
+      height: 80px;    
+      background-color: lightgray;
+  }
+  /* This formats the logo div. in page headder. */
+  #Logo{
+      margin: 0%;
+      padding: 1%;
+/*      width: 40%;*/
+      font-family: Helvetica, Times, serif;   
+      float: left;
+  }
+  /* This formats the link from logo to home page in page header. */
+  #Logo a{
+      text-decoration: none;
+      color: Black;
+  }
+  /* This formats the logo/brand in page header. */
+  #Logo1{
+      font-size: 18pt;
+      display: inline; 
+  }
+  /* This formats the login status in the page header. */
+  #status{
+      margin: 0%;
+      padding: 0% 1% 0% 0%;
+      width: 20%;
+      height: 20%;
+      font-size: 14pt;
+      float: right;
+      text-align: right;
+      /*border: 2px dotted black;*/
+  }
+  /* This formats the breadcrumb in the page header. */
+  #location{
+      margin: 2% 0% 0% 0%;
+      padding: 0% 1% 1% 0%;
+      width: 20%;
+      height: 8%;
+      font-size: 14pt;
+      float: right;
+      clear: right;
+      /*border: 2px dotted black;*/
+      text-align: right;
+  }
+  /* This formats the user navigation area. */
+  #usernav{
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      height: 60px;    
+      background-color: lightblue;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+  }
+  /* This shifts the list to right in user navigation area. */
+  #usernav ul:nth-child(1){
+      margin: 0% 0% 0% 0%;
+
+  }
+  /* This formats the unordered list in the user navigation area. */
+  .usernav1{
+      margin: 0%;
+      padding: 2% 2%;
+      font-size: 120%;
+      float: right;
+  }
+  /* This formats the link text in user navigation area. */
+  .usernav{
+      margin: 0px;
+      padding: 2px;
+      width: 20%;
+      height: 40%;
+      display: inline;
+      font-size: 18pt;
+      color: black;
+      /*border: 2px dotted black;*/
+  }
+
+  .usernav:nth-child(1){
+
+       border-right: 2px solid black;
+  }
+
+  .usernav:nth-child(2){
+       border-right: 2px solid black;
+  }
+  /* This formats the links in the user navigation area. */
+  .usernav a{
+      text-decoration: none;
+      color: black;
+  }
+  /* This formats the aside. */
+  aside{
+      margin: 0px;
+      padding: 0px;
+      width: 19%;
+      height: 1200px;
+      border-right: 2px solid black;
+      float: left;    
+  }
+  /* This formats the heading in the aside. */
+  aside h2{
+      text-align: center;
+  }
+  /* This formats the unordered list removing any bullet points. */
+  #aside_nav ul{
+      list-style-type: none;
+      padding: 20px 20px;    
+  }
+  /* This formats the buttons in the aside. */
+  #aside_nav ul li{
+      margin: 0px 0px 20px 0px;
+      width: 85%;
+      border: 2px solid lightblue;
+      border-radius: 5px;
+      box-shadow: 2px 2px 2px grey;
+      display: block;
+      text-align: center;
+      font-size: 10pt;
+
+  }
+
+  #aside_nav ul li:hover {
+      background-color: lightblue;
+  }
+  /* This sets the focus to the current page by changing the background color. */
+  #aside_nav ul li a:visited {
+      color: crimson;
+
+  }
+  #aside_nav ul li.active {
+      background-color: lightblue;  
+  }
+
+  /* This formats the links in the list items in the aside. */
+  #aside_nav ul li a{
+      display: block;
+      padding: 5px;
+      text-decoration: none;
+      color: black;
+  }
+  /* This formats the main content area. */
+  .maincontent{
+      margin: 0px;
+      padding: 0px;
+      width: 80%;
+      height: 600px;
+      font-size: 14pt;    
+      float: left;
+      /*border: 2px dotted black;*/
+  }
+  /* This formats the heading in the main content area. */
+  .maincontent h2{
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-size: 18pt;
+  }
+  /* This formats the links from pictures to catalog page. */
+  .options{
+      width: 40%;
+      height: 100px;
+      /*border: 2px dotted black;*/
+  }
+  /* This formats the pictures on home page. */
+  .laptop{
+      margin: 0% 0% 0% 15%;
+      padding: 0%;
+      width: 80px;
+      height: auto;
+      position: absolute;
+      /*border: 2px dotted black;*/
+      float: right;
+  }
+  /* This formats the left content area */
+  .leftContent{
+      margin: 0;
+      padding: 4%;
+      width: 75%;
+      float: left;
+      height: auto;
+      /*border: 2px dotted black;*/
+  }
+
+  /* Footer formatting */
+  footer{
+        width: 100%;
+        height: 100px;
+        background-color: lightgray;
+        clear: both;
+    }
+    footer table thead th {
+        font-size: 18pt;
+    }
+    footer table tr {
+        text-align: center;
+        border: 2px solid black;
+    }
+    
+    footer table {
+        margin: 0 auto;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: black;
+    }
+}
+@media only screen and (min-width: 320px)
+and (max-width: 767px){
+   body{
+      margin: 0%;
+      padding: 0%;
+      width: 100%;
+      height: 100%;
+  }
+  /* This formats the page header. */
+  header{
+      margin: 0%;
+      padding: 1% 0% 1% 0%;
+      width: 100%;
+      height: 60px;    
+      background-color: lightgray;
+  }
+  /* This formats the logo div. in page headder. */
+  #Logo{
+      margin: 0%;
+      padding: 1%;
+/*      width: 40%;*/
+      font-family: Helvetica, Times, serif;   
+      text-align: center;
+  }
+  /* This formats the link from logo to home page in page header. */
+  #Logo a{
+      text-decoration: none;
+      color: Black;
+  }
+  /* This formats the logo/brand in page header. */
+  #Logo1{
+      font-size: 18pt;
+      display: inline; 
+  }
+  /* This formats the login status in the page header. */
+  #status{
+      margin: 0%;
+      padding: 0% 1% 0% 0%;
+      width: 40%;
+      height: 20%;
+      font-size: 10pt;
+      float: left;
+      
+      text-align: left;
+      /*border: 2px dotted black;*/
+  }
+  /* This formats the breadcrumb in the page header. */
+  #location{
+      margin: 0%;
+      padding: 0% 4% 1% 0%;
+      width: 20%;
+      height: 8%;
+      font-size: 10pt;
+      float: right;
+      clear: right;
+      /*border: 2px dotted black;*/
+      text-align: right;
+  }
+  /* This formats the user navigation area. */
+  #usernav{
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      height: 30px;    
+      background-color: lightblue;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+/*      text-align: center;*/
+  }
+  /* This shifts the list to right in user navigation area. */
+  #usernav ul:nth-child(1){
+      margin: 0% 0% 0% 0%;
+
+  }
+  /* This formats the unordered list in the user navigation area. */
+  .usernav1{
+      margin: 0%;
+      padding: 1% 20%;
+      font-size: 14pt;
+/*      float: right;*/
+  }
+  /* This formats the link text in user navigation area. */
+  .usernav{
+      margin: 0px;
+      padding: 2px;
+      width: 20%;
+      height: 40%;
+      display: inline;
+      font-size: 14pt;
+      color: black;
+      /*border: 2px dotted black;*/
+  }
+
+  .usernav:nth-child(1){
+
+       border-right: 2px solid black;
+  }
+
+  .usernav:nth-child(2){
+       border-right: 2px solid black;
+  }
+  /* This formats the links in the user navigation area. */
+  .usernav a{
+      text-decoration: none;
+      color: black;
+  }
+  /* This formats the aside. */
+  aside{
+      margin: 0px;
+      padding: 0px;
+      width: 80px;
+      height: 600px;
+      border-right: 2px solid black;
+      float: left;
+/*      overflow: auto;*/
+  }
+  /* This formats the heading in the aside. */
+  aside h2{
+      margin: 0;
+      text-align: center;
+/*      padding: 10%;*/
+      font-size: 10pt;
+      width: 80px;
+      height: 20px;
+/*      border: 1px dotted black;*/
+      float: top;
+  }
+  /* This formats the unordered list removing any bullet points. */
+  #aside_nav ul{
+      list-style-type: none;
+      padding: 20px 20px;
+      float: bottom;
+      clear: both;
+/*      border: 1px dotted black;*/
+      
+  }
+  /* This formats the buttons in the aside. */
+  #aside_nav ul li{
+      margin: 0px 0px 20px 0px;
+      width: 85%;
+      border: 2px solid lightblue;
+      border-radius: 5px;
+      box-shadow: 2px 2px 2px grey;
+      display: block;
+      text-align: center;
+      font-size: 10pt;
+      float: bottom;
+      clear: both;
+
+  }
+  
+/*  .container {
+      display: flex;
+  }
+  
+  .sidebar {
+      transition: all .1s;
+      max-width: 150px;
+  }
+  
+  .sidebar.collapsed {
+      max-width: 0;
+      overflow: hidden;
+  }*/
+
+  #aside_nav ul li:hover {
+      background-color: lightblue;
+  }
+  /* This sets the focus to the current page by changing the background color. */
+  #aside_nav ul li a:visited {
+      color: crimson;
+
+  }
+  #aside_nav ul li.active {
+      background-color: lightblue;  
+  }
+
+  /* This formats the links in the list items in the aside. */
+  #aside_nav ul li a{
+      display: block;
+/*      padding: 5px;*/
+      text-decoration: none;
+      color: black;
+  }
+  /* This formats the main content area. */
+  .maincontent{
+      margin: 0px;
+      padding: 0px;
+      width: 80%;
+      height: 600px;
+      font-size: 14pt;    
+      float: left;
+      /*border: 2px dotted black;*/
+  }
+  /* This formats the heading in the main content area. */
+  .maincontent h2{
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-size: 18pt;
+  }
+  /* This formats the links from pictures to catalog page. */
+  .options{
+      width: 40%;
+      height: 100px;
+      /*border: 2px dotted black;*/
+  }
+  /* This formats the pictures on home page. */
+  .laptop{
+      margin: 0% 0% 0% 15%;
+      padding: 0%;
+      width: 80px;
+      height: auto;
+      position: absolute;
+      /*border: 2px dotted black;*/
+      float: right;
+  }
+  /* This formats the left content area */
+  .leftContent{
+      margin: 0;
+      padding: 4%;
+      width: 75%;
+      float: left;
+      height: auto;
+      /*border: 2px dotted black;*/
+  }
+
+  /* Footer formatting */
+  footer{
+      width: 100%;
+      height: 40px;
+      background-color: lightgray;
+      clear: both;
+  }
+
+  footer a {
+      text-decoration: none;
+      color: black;
+  }   
+}

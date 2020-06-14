@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 27, 2017, 2:33:36 PM
+    Author     : Jnorri
+*/
+
+table{
+    margin: 0% 0% 0% 3%;
+    padding: 2%;
+    width: 75%;
+    border-collapse: collapse;
+    /*border: 2px solid black;*/
+    /*float: right;
+    clear: left;*/
+}
+/* This adds pading around cells of table. */
+tbody td{
+    padding: 15px;
+    text-align: center;
+}
+/* This formats the head of the table adding a top border and some padding. */
+thead th{
+    /*background-color: lightgreen;*/
+    margin: 0;
+    /*padding: 15px;*/
+    font-size: 120%;
+    border-bottom: 4px solid lightblue;
+}
+/* This formats the foot of the table adding a top border and some padding. */
+/*tfoot th{
+    margin: 0;
+    padding: 15px;
+    border-top: 4px solid lightblue;
+}*/
+
+h2 {
+    font-size: 125%;
+}
+
+
+
+.maincontentCart{
+    margin: 0px;
+    padding: 0px;
+    width: 80%;
+    height: 800px;
+    font-size: 150%;    
+    float: left;
+    /*border: 2px dotted black;*/
+}
+

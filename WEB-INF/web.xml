@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <security-role>
+        <description>administration</description>
+        <role-name>administrator</role-name>
+    </security-role>
+    
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>Protected Area</web-resource-name>
+            <url-pattern>/administrator/*</url-pattern>
+        </web-resource-collection>
+        
+        <auth-constraint>
+            <role-name>administrator</role-name>
+        </auth-constraint>
+        
+<!--        <user-data-constraint>
+            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+        </user-data-constraint>-->
+        
+    </security-constraint>
+    
+    
+    
+    <login-config>
+        <auth-method>FORM</auth-method>
+        <form-login-config>
+            <form-login-page>/administrator/login.html</form-login-page>
+            <form-error-page>/administrator/error.jsp</form-error-page>
+        </form-login-config>
+    </login-config>
+    
+    
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    
+    <jsp-config>
+        <jsp-property-group>
+            <description>header,footer, and navigation settings</description>
+            <url-pattern>/index.jsp</url-pattern>
+            <url-pattern>/WEB-INF/views/*</url-pattern>
+            <include-prelude>/WEB-INF/commonFiles/header.jsp</include-prelude>
+            <include-coda>/WEB-INF/commonFiles/footer.jsp</include-coda>
+        </jsp-property-group>
+    </jsp-config>
+    
+</web-app>
